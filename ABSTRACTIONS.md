@@ -17,7 +17,7 @@ input types, including a list of tensors, and returns an `ImageList` object.
 
 ```python
 from maskrcnn_benchmark.structures.image_list import to_image_list
-
+阿萨法
 images = [torch.rand(3, 100, 200), torch.rand(3, 150, 170)]
 batched_images = to_image_list(images)
 
